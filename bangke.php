@@ -26,7 +26,7 @@ if ($register == false)
     $verif = verif($otp, $register);
     if ($verif == false)
         {
-        echo "\e[91m[x] Kode Verifikasi Salah\n";
+        echo "\e[91m[x] Kode Verifikasinyo Salah\n";
         goto otp;
         }
       else
