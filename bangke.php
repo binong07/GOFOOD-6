@@ -16,7 +16,7 @@ $nope = trim(fgets(STDIN));
 $register = register($nope);
 if ($register == false)
     {
-    echo "\e[91m[x] Nomor Telah Terdaftar\n";
+    echo "\e[91m[x] Nomor Alah Terdaftar \n";
     }
   else
     {
