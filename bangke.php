@@ -9,7 +9,7 @@ include ("curl.php");
 echo "\n";
 echo "\e[93m             Perai Juo Lai Bangke!!             \n";
 echo "\e[91m FORMAT NOMOR HP : INDONESIA '62***' , US='1***'\n";
-echo "\e[93m SCRIPT GOJEK AUTO REGISTER + AUTO CLAIM VOUCHER   HARAM\n";
+echo "\e[93m Khusus Pecinta Perai Kayak Tonok\n";
 echo "\e[91m UNTUK RAKYAT MISKIN XD\n";
 echo "\n";
 echo "\e[96m[?] Nomor HP Ang Anjing (62/1) : ";
