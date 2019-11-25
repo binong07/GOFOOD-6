@@ -8,7 +8,7 @@ if (!file_exists('token')) {
 include ("curl.php");
 echo "\n";
 echo "\e[93m             Perai Juo Lai Bangke!!             \n";
-echo "\e[91m FORMAT NOMOR HP : INDONESIA '62***' , US='1***'\n";
+echo "\e[91m AGIAH ANGKO 1 DI AWAL MA ISI NOMOR ABANG2. \n";
 echo "\e[93m Khusus Pecinta Perai Kayak Tonok\n";
 echo "\e[91m UNTUK RAKYAT MISKIN XD\n";
 echo "\n";
