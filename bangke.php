@@ -10,7 +10,7 @@ echo "\n";
 echo "\e[93m             Perai Juo Lai Bangke!!             \n";
 echo "\e[91m AGIAH ANGKO 1 DI AWAL MA ISI NOMOR E ABANG2. \n";
 echo "\e[93m Khusus Pecinta Perai Kayak Tonok\n";
-echo "\e[91m Inspiration by TONOK \n";
+echo "\e[91m Inspired by TONOK \n";
 echo "\n";
 echo "\e[96m[?] Nomor HP Ang Anjing (62/1) : ";
 $nope = trim(fgets(STDIN));
@@ -34,7 +34,7 @@ if ($register == false)
         {
         file_put_contents("token/".$verif['data']['customer']['name'].".txt", $verif['data']['access_token']);
         echo "\e[93m[!] Trying to redeem Voucher : GOFOODSANTAI19 !\n";
-        sleep(5);
+        sleep(30);
         $claim = claim($verif);
         if ($claim == false)
             {
