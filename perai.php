@@ -32,7 +32,7 @@ if ($register == false)
       else
         {
         file_put_contents("token/".$verif['data']['customer']['name'].".txt", $verif['data']['access_token']);
-        echo "\e[93m[!] Trying to redeem Voucher : GOFOODSANTAI19 !\n";
+        echo "\e[93m[!] Trying to redeem Voucher : GOFOODSANTAI08 !\n";
         sleep(3);
         $claim = claim($verif);
         if ($claim == false)
@@ -55,7 +55,7 @@ if ($register == false)
             if ($claim == false) {
                 echo "\e[92m[!]".$claim['errors'][0]['message']."\n";
                 sleep(3);
-                echo "\e[93m[!] Trying to redeem Voucher : GOFOODSANTAI19 !\n";
+                echo "\e[93m[!] Trying to redeem Voucher : GOFOODSANTAI08 !\n";
                 sleep(3);
                 goto next1;
             }
